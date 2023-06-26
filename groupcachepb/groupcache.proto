@@ -16,6 +16,8 @@ limitations under the License.
 
 syntax = "proto2";
 
+option go_package = "github.com/adzil/groupcache/groupcache";
+
 package groupcachepb;
 
 message GetRequest {
