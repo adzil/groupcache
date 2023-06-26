@@ -29,9 +29,9 @@ import (
 	"sync"
 	"time"
 
-	"github.com/golang/protobuf/proto"
-	"github.com/mailgun/groupcache/v2/consistenthash"
-	pb "github.com/mailgun/groupcache/v2/groupcachepb"
+	"github.com/adzil/groupcache/v2/consistenthash"
+	pb "github.com/adzil/groupcache/v2/groupcachepb"
+	"google.golang.org/protobuf/proto"
 )
 
 const defaultBasePath = "/_groupcache/"
